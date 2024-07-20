@@ -23,7 +23,7 @@ function getUsers() {
                             <img src = "/like.svg" class="likeIcon" onclick="likeBtnClicked(event)">
                             <img src = "/heart.svg" class="likeIcon" onclick = "loveBtnClicked(event)">
                             <span>23</span>
-                            <span id="likes">${likeCount}</span>
+                            <span id="likes"></span>
                         </div>
                     </div>
                 `
