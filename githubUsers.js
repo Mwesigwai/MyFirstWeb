@@ -2,24 +2,6 @@
 
 
 let usersDiv = document.querySelector('.users');
-let userDetails = '';
-let likeCount = 0;
-function likeBtnClicked(event) {
-    if(event.target.src == 'http://127.0.0.1:5500/like.svg'){        
-        event.target.src = 'http://127.0.0.1:5500/blueLike.svg'
-        likeCount = likeCount+1;
-    }else{
-        event.target.src = 'http://127.0.0.1:5500/like.svg'
-    }
-}
-
-function loveBtnClicked(event) {
-    if(event.target.src == 'C:\Users\IsaacMwesigwa\Desktop\CSS_Assignments\SurveyForm\es6\MyFirstWeb\heart.svg'){        
-        event.target.src = 'http://127.0.0.1:5500/redHeart.svg'
-    }else{
-        event.target.src = 'http://127.0.0.1:5500/heart.svg'
-    }
-}
 
 function getUsers() {
     const xhr = new XMLHttpRequest();
