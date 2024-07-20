@@ -2,6 +2,7 @@
 
 
 let usersDiv = document.querySelector('.users');
+let userDetails = '';
 
 function getUsers() {
     const xhr = new XMLHttpRequest();
